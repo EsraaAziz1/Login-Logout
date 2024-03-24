@@ -1,0 +1,70 @@
+*{
+    padding:0px;
+    margin: 0px;;
+    box-sizing: border-box;
+}    
+.container{
+ width: 80%;
+ margin: auto;
+}
+header{
+    height: 70px;
+    background-color:rgb(41, 41, 41);
+    padding: 10px 0;
+}
+.head-content{
+    display: flex;
+    justify-content:space-between  ;
+   /* align-items: center;*/  
+}
+.head-content .brand{
+    font-size: 32px;
+    text-decoration: none;
+    color: azure;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+
+}
+nav li a{
+     display: block;
+     color:azure ;
+     min-width: 80px;
+     text-decoration: none;
+     padding: 5px;
+     margin: 0px 10px;
+}
+/*//////////////////form///////////////*/
+ .section-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 45%;
+    text-align: center;
+   background-color: darkgreen;
+   padding: 20px;
+ }
+ .section-form h2{
+     font-size: 50px ;
+     letter-spacing: 2px;
+     color: aliceblue;
+ }
+ .section-form form input{
+    display: block;
+    width:100%;
+    margin: 5px 0;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: none;
+}  
+.section-form form input[type="submit"]:hover{
+    opacity: 0.5;
+}
+nav ul#user-info{
+    display: none;
+}
